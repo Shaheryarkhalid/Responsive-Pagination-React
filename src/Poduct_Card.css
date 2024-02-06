@@ -1,0 +1,71 @@
+.Product-Card{
+    height: 300px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #000;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+.Product-Card:hover{
+    box-shadow: 0 0 10px #000;
+    transform: scale(1.05);
+    transition: 0.2s linear;
+}
+.Product-Card img{
+    height: 150px;
+    width: 240px;
+    margin: 5px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.Product-Card .Bottom-Section{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:0 10px;
+    color: #4F6F52;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Product-Card .Bottom-Section .Price{
+    color: #4F6F52;
+    font-weight: 500;
+    margin: 3px 0;
+}
+.Product-Card .Bottom-Section .Price .Oiginal-Pice{
+    font-size: 0.6rem;
+    color: #444;
+    margin-left: 10px;
+    color: rgb(134, 4, 4);
+}
+.Product-Card .Bottom-Section .Title{
+    font-size: 1.1rem;
+    font-weight: 800;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+}
+.Product-Card .Bottom-Section .Reviews{
+    font-size: 1rem;  
+    font-weight: 600;
+    color:chocolate;
+}
+.Product-Card .Bottom-Section button{
+    margin-top: 10px;
+    padding:10px 20px;
+    border-radius: 20px;
+    background-color: #4F6F52;
+    border: none;
+    color: #ddd;
+    font-size: 1.1rem;
+    transition: 0.2s linear;
+    cursor: pointer;
+    font-family:cursive;
+    user-select: none;
+}
+.Product-Card .Bottom-Section button:hover{
+    color: #fff;
+    box-shadow: 0 0 2px #000;
+    transition: 0.2s linear;
+}
